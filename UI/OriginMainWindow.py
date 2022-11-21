@@ -8,7 +8,6 @@ class OriginMainWindow(QWidget):
         self.init_layers()
 
     def init(self):
-        pass
         self.setFixedWidth(400)
         self.setFixedHeight(300)
 

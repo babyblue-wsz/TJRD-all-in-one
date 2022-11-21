@@ -16,8 +16,8 @@ class MyWidget(QMainWindow):
         self.setFixedSize(800, 600)
         self.setWindowIcon(QIcon("/Static/tongji.jpg"))
 
-        originMainWindow = OriginMainWindow()
-        self.setCentralWidget(originMainWindow)
+        origin_main_window = OriginMainWindow()
+        self.setCentralWidget(origin_main_window)
 
     def set_menu_bar(self):
         # 创建顶部菜单栏。addMenu()函数创建一级，addAction()函数创建子菜单。

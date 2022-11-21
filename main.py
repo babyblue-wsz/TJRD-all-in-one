@@ -1,6 +1,5 @@
 import sys
-from PyQt5.QtWidgets import QApplication, QMainWindow, QVBoxLayout, QAction, QStackedLayout, QGridLayout, QLabel, \
-    QPushButton, QWidget, QPlainTextEdit
+from PyQt5.QtWidgets import QApplication, QMainWindow, QAction
 from PyQt5.QtGui import QIcon
 from UI.Segmentation import Segmentation
 from UI.OriginMainWindow import OriginMainWindow
